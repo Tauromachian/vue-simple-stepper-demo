@@ -2,7 +2,11 @@
   <div class="container">
     <h1>Vue Simple Stepper</h1>
     <a href="https://github.com/Tauromachian/vue-simple-stepper">Github Repo</a>
-    <example-one></example-one>
+    <app-card>
+      <card-text>
+        <example-one></example-one>
+      </card-text>
+    </app-card>
   </div>
 </template>
 
