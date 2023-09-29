@@ -1,0 +1,30 @@
+body {
+  font-family: "Nunito Sans", serif;
+  background-color: var(--neutral);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Catamaran;
+  color: var(--text-color-primary);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.15rem;
+}
