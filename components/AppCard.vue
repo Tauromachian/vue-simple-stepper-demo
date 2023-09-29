@@ -27,7 +27,6 @@ export default {
   overflow: hidden; /* ensures content respects the rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
   transition: transform 0.2s; /* smooth hover effect */
-  margin: 16px; /* space around card */
 }
 
 .card:hover {
