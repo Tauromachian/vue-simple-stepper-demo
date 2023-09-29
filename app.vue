@@ -30,4 +30,10 @@
   max-width: 600px;
   width: 600px;
 }
+
+.links-container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
 </style>
