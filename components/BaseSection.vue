@@ -2,7 +2,7 @@
   <section class="my-1">
     <h2
       v-if="title"
-      class="mb-3 text-3xl text-5xl self-start sm:self-center"
+      class="text-3xl text-5xl self-start sm:self-center"
       :class="titleAlignment"
     >
       {{ title }}
