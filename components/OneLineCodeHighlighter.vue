@@ -4,7 +4,9 @@
         
 <code><slot></slot></code>
     </pre>
-    <button @click="copyToClipboard">Copy to Clipboard</button>
+    <button @click="copyToClipboard">
+      <icon-helper icon="mdiContentCopy"> </icon-helper>
+    </button>
   </div>
 </template>
 
