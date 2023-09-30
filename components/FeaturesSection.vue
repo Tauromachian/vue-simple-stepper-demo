@@ -1,6 +1,5 @@
 <template>
-  <section>
-    <h2>Features</h2>
+  <base-section title="Features">
     <ul>
       <li>
         Dynamically renders a specified number of steps based on the steps prop.
@@ -17,7 +16,7 @@
         as needed.
       </li>
     </ul>
-  </section>
+  </base-section>
 </template>
 
 <style>
