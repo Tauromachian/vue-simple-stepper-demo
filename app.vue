@@ -121,7 +121,7 @@
 </template>
 
 <script setup>
-import "prismjs/themes/prism-okaidia.min.css";
+import "prismjs/themes/prism-tomorrow.min.css";
 import "prismjs";
 </script>
 
