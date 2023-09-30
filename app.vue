@@ -22,9 +22,10 @@
         allows for navigating between these steps.
       </p>
     </base-section>
+
     <features-section></features-section>
-    <base-section>
-      <h2>Installation</h2>
+
+    <base-section title="Installation">
       <p>Install it from npm</p>
       <one-line-code-highlighter>
         npm install vue-simple-stepper
@@ -38,11 +39,9 @@
         import "vue-simple-stepper/dist/style.css";
       </one-line-code-highlighter>
     </base-section>
-    <base-section>
-      <div>
-        <h2>Use</h2>
-        <p>The easiest way to use is to copy and throw this in your code:</p>
-      </div>
+
+    <base-section title="Use">
+      <p>The easiest way to use is to copy and throw this in your code:</p>
       <pre class="language-html" data-src="ExampleOne.vue"></pre>
       <p>
         Any element found in the default slot of the component will be
@@ -84,8 +83,8 @@
         </card-text>
       </app-card>
     </base-section>
-    <base-section>
-      <h2>Props</h2>
+
+    <base-section title="Props">
       <ul>
         <li>
           <app-chip> steps: </app-chip>
@@ -99,8 +98,7 @@
       </ul>
     </base-section>
 
-    <base-section>
-      <h2>Events</h2>
+    <base-section title="Events">
       <ul>
         <li>
           <app-chip> click:next: </app-chip> Triggered when the next button is
@@ -116,8 +114,7 @@
         </li>
       </ul>
     </base-section>
-    <base-section>
-      <h2>Slots</h2>
+    <base-section title="Slots">
       <ul>
         <li>
           <app-chip> actions: </app-chip>
