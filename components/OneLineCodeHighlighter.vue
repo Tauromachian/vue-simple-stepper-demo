@@ -2,7 +2,7 @@
   <div class="code-display-box">
     <pre>
         
-<code><slot></slot></code>
+<code ref="code"><slot></slot></code>
     </pre>
     <button @click="copyToClipboard">
       <icon-helper icon="mdiContentCopy"> </icon-helper>
@@ -11,13 +11,18 @@
 </template>
 
 <script setup>
-const copyToClipboard = () => {
-  const el = document.createElement("textarea");
-  el.value = this.codeContent;
-  document.body.appendChild(el);
-  el.select();
-  document.execCommand("copy");
-  document.body.removeChild(el);
+import { ref } from "vue";
+
+const code = ref(null);
+
+const copyToClipboard = async () => {
+  const el = code.value;
+  try {
+    await navigator.clipboard.writeText(el.textContent);
+    console.log("Text copied to clipboard");
+  } catch (err) {
+    console.error("Failed to copy text: ", err);
+  }
 };
 </script>
 
