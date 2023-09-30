@@ -32,7 +32,7 @@ const copyToClipboard = () => {
   ); /* A subtle background similar to Medium */
   border-radius: 3px; /* Slight rounded corners */
   padding: 2px 2px; /* Small padding for better presentation */
-  font-family: "Courier New", Courier, monospace; /* Monospaced font for code */
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace; /* Monospaced font for code */
   font-size: 0.95em; /* Slightly smaller font-size */
 }
 
