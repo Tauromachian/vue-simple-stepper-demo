@@ -42,7 +42,11 @@
 
     <base-section title="Use">
       <p>The easiest way to use is to copy and throw this in your code:</p>
-      <pre class="language-html" data-src="ExampleOne.vue"></pre>
+      <pre
+        data-prismjs-copy="lol"
+        class="language-html"
+        data-src="ExampleOne.vue"
+      ></pre>
       <p>
         Any element found in the default slot of the component will be
         automatically added to the stepper. Notice that the steps data prop
@@ -141,13 +145,15 @@ import "prismjs/components/prism-css";
 
 <style>
 .container {
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
+  margin: 0 0.4em;
 
   max-width: 600px;
-  width: 600px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    margin: 0 auto;
+  }
 }
 
 .links-container {
