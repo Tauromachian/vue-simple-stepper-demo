@@ -129,8 +129,12 @@
 
 <script setup>
 import "prismjs/themes/prism-tomorrow.min.css";
+import "prismjs/plugins/toolbar/prism-toolbar.min.css";
 
-import Prismjs from "prismjs";
+import "prismjs";
+import "prismjs/plugins/toolbar/prism-toolbar";
+import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard";
+
 import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-css";
 </script>
