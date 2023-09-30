@@ -8,18 +8,14 @@
   </div>
 </template>
 
-<script>
-export default {
-  methods: {
-    copyToClipboard() {
-      const el = document.createElement("textarea");
-      el.value = this.codeContent;
-      document.body.appendChild(el);
-      el.select();
-      document.execCommand("copy");
-      document.body.removeChild(el);
-    },
-  },
+<script setup>
+const copyToClipboard = () => {
+  const el = document.createElement("textarea");
+  el.value = this.codeContent;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand("copy");
+  document.body.removeChild(el);
 };
 </script>
 
