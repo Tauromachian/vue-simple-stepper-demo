@@ -15,6 +15,7 @@
 import {
   mdiGithub,
   mdiNpm,
+  mdiContentCopy,
   mdiResponsive,
   mdiLightbulb,
   mdiRocketLaunch,
@@ -54,6 +55,7 @@ export default {
       icons: {
         mdiGithub,
         mdiNpm,
+        mdiContentCopy,
         mdiResponsive,
         mdiLightbulb,
         mdiRocketLaunch,
