@@ -26,7 +26,6 @@ import "prismjs";
 <style>
 .container {
   margin: 0 auto;
-  text-align: center;
 
   display: flex;
   flex-direction: column;
