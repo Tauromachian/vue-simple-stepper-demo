@@ -4,7 +4,7 @@
         
 <code ref="code"><slot></slot></code>
     </pre>
-    <button @click="copyToClipboard">
+    <button aria-label="Copy button" @click="copyToClipboard">
       <icon-helper icon="mdiContentCopy"> </icon-helper>
     </button>
   </div>

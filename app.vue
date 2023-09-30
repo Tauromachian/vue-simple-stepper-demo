@@ -3,10 +3,16 @@
     <base-section>
       <h1>Vue Simple Stepper</h1>
       <div class="links-container">
-        <a href="https://github.com/Tauromachian/vue-simple-stepper">
+        <a
+          aria-label="Link to Github"
+          href="https://github.com/Tauromachian/vue-simple-stepper"
+        >
           <icon-helper icon="mdiGithub" width="50px" height="50px" />
         </a>
-        <a href="https://www.npmjs.com/package/vue-simple-stepper">
+        <a
+          haria-label="Link to NPM"
+          ref="https://www.npmjs.com/package/vue-simple-stepper"
+        >
           <icon-helper icon="mdiNpm" width="50px" height="50px" />
         </a>
       </div>
