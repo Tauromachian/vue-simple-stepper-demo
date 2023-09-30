@@ -37,7 +37,7 @@ const copyToClipboard = async () => {
     0.15
   ); /* A subtle background similar to Medium */
   border-radius: 8px; /* Slight rounded corners */
-  padding: 2px 2px; /* Small padding for better presentation */
+  padding: 2px; /* Small padding for better presentation */
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace; /* Monospaced font for code */
   font-size: 0.95em; /* Slightly smaller font-size */
 }
