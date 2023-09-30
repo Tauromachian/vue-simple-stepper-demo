@@ -28,6 +28,7 @@ const copyToClipboard = async () => {
 
 <style scoped>
 .code-display-box {
+  overflow: scroll;
   position: relative;
   background-color: rgba(
     135,
