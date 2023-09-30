@@ -76,6 +76,11 @@
       using the actions slot like so:
     </p>
     <pre class="language-html" data-src="ExampleTwo.vue"></pre>
+    <app-card>
+      <card-text>
+        <example-two></example-two>
+      </card-text>
+    </app-card>
     <h2>Props</h2>
     <ul>
       <li>
