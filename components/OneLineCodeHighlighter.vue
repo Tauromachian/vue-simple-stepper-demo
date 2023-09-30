@@ -2,7 +2,7 @@
   <div class="code-display-box">
     <pre>
         
-    <code><slot></slot></code>
+<code><slot></slot></code>
     </pre>
     <button @click="copyToClipboard">Copy to Clipboard</button>
   </div>
