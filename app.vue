@@ -71,6 +71,37 @@
       extend these classes:
     </p>
     <pre class="language-css" data-src="component-css-styles.css"></pre>
+    <p>
+      In case that you need to overwrite completely the action buttons do it by
+      using the actions slot like so:
+    </p>
+    <pre class="language-html" data-src="ExampleTwo.vue"></pre>
+    <h2>Props</h2>
+    <ul>
+      <li>
+        steps: An array that defines the steps in the stepper. The length of the
+        array determines the number of steps. Default is an empty array.
+      </li>
+      <li>
+        step: A number indicating the current step. Starts from 1 and default is
+        1.
+      </li>
+    </ul>
+    <h2>Events</h2>
+    <ul>
+      <li>click:next: Triggered when the next button is clicked.</li>
+      <li>click:previous: Triggered when the previous button is clicked.</li>
+      <li>click:submit: Triggered when the submit button is clicked.</li>
+    </ul>
+    <h2>Slots</h2>
+    <ul>
+      <li>
+        <p>
+          actions: For customizing the action buttons (next, previous, submit)
+          of the stepper.
+        </p>
+      </li>
+    </ul>
   </div>
 </template>
 
