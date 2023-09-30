@@ -18,6 +18,11 @@
   </div>
 </template>
 
+<script setup>
+import "prismjs/themes/prism-okaidia.min.css";
+import "prismjs";
+</script>
+
 <style>
 .container {
   margin: 0 auto;
