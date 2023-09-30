@@ -462,6 +462,11 @@
     wrap-ansi "^8.1.0"
     wrap-ansi-cjs "npm:wrap-ansi@^7.0.0"
 
+"@jogarcia/mgrid@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@jogarcia/mgrid/-/mgrid-1.0.0.tgz#309e03a642a2a33235f4a1fa19795adbcd54628c"
+  integrity sha512-h/Jn4cxdnPRzNXR871mqCbVXUyK7cfuJF1NBnBV5GNrE2ksA+ehOmQm2+nfdQTD59fFwlI7Ou4BHVQALr0i7MQ==
+
 "@jridgewell/gen-mapping@^0.3.0", "@jridgewell/gen-mapping@^0.3.2":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@jridgewell/gen-mapping/-/gen-mapping-0.3.3.tgz#7e02e6eb5df901aaedb08514203b096614024098"

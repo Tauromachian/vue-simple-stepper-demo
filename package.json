@@ -14,6 +14,7 @@
     "nuxt": "^3.5.2"
   },
   "dependencies": {
+    "@jogarcia/mgrid": "^1.0.0",
     "@mdi/js": "^7.2.96",
     "highlight.js": "^11.8.0",
     "normalize.css": "^8.0.1",
