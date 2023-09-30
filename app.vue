@@ -122,7 +122,10 @@
 
 <script setup>
 import "prismjs/themes/prism-tomorrow.min.css";
-import "prismjs";
+
+import Prismjs from "prismjs";
+import "prismjs/components/prism-javascript";
+import "prismjs/components/prism-css";
 </script>
 
 <style>
