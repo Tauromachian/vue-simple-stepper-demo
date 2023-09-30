@@ -44,18 +44,14 @@ pre {
 button {
   display: block;
   position: absolute;
-  padding: 5px 15px;
-  background-color: #007bff;
+  padding: 5px 5px;
   color: white;
   border: none;
   border-radius: 5px;
+  background-color: transparent;
   cursor: pointer;
   font-size: 14px;
   top: 5px;
   right: 5px;
-}
-
-button:hover {
-  background-color: #0056b3;
 }
 </style>
