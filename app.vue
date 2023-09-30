@@ -70,6 +70,7 @@
       Or in case you want to further customize the buttons you can overwrite or
       extend these classes:
     </p>
+    <pre class="language-css" data-src="component-css-styles.css"></pre>
   </div>
 </template>
 
