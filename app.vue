@@ -55,11 +55,11 @@
       </p>
       <p>Any time the actions of the stepper are clicked the events:</p>
       <ul>
-        <li>click:next</li>
-        <li>click:previous</li>
+        <li><app-chip> click:next </app-chip></li>
+        <li><app-chip>click:previous</app-chip></li>
         <li>
-          click:submit Are going to be emitted in by the stepper on click of the
-          respective action.
+          <app-chip>click:submit </app-chip>Are going to be emitted in by the
+          stepper on click of the respective action.
         </li>
       </ul>
       <p>
@@ -75,7 +75,7 @@
       <pre class="language-css" data-src="component-css-styles.css"></pre>
       <p>
         In case that you need to overwrite completely the action buttons do it
-        by using the actions slot like so:
+        by using the <app-chip> actions </app-chip>slot like so:
       </p>
       <pre class="language-html" data-src="ExampleTwo.vue"></pre>
       <app-card>
@@ -88,12 +88,13 @@
       <h2>Props</h2>
       <ul>
         <li>
-          steps: An array that defines the steps in the stepper. The length of
-          the array determines the number of steps. Default is an empty array.
+          <app-chip> steps: </app-chip>
+          An array that defines the steps in the stepper. The length of the
+          array determines the number of steps. Default is an empty array.
         </li>
         <li>
-          step: A number indicating the current step. Starts from 1 and default
-          is 1.
+          <app-chip> step: </app-chip>
+          A number indicating the current step. Starts from 1 and default is 1.
         </li>
       </ul>
     </base-section>
@@ -101,19 +102,28 @@
     <base-section>
       <h2>Events</h2>
       <ul>
-        <li>click:next: Triggered when the next button is clicked.</li>
-        <li>click:previous: Triggered when the previous button is clicked.</li>
-        <li>click:submit: Triggered when the submit button is clicked.</li>
+        <li>
+          <app-chip> click:next: </app-chip> Triggered when the next button is
+          clicked.
+        </li>
+        <li>
+          <app-chip> click:previous: </app-chip> Triggered when the previous
+          button is clicked.
+        </li>
+        <li>
+          <app-chip> click:submit: </app-chip>
+          Triggered when the submit button is clicked.
+        </li>
       </ul>
     </base-section>
     <base-section>
       <h2>Slots</h2>
       <ul>
         <li>
-          <p>
-            actions: For customizing the action buttons (next, previous, submit)
-            of the stepper.
-          </p>
+          <app-chip> actions: </app-chip>
+
+          For customizing the action buttons (next, previous, submit) of the
+          stepper.
         </li>
       </ul>
     </base-section>
