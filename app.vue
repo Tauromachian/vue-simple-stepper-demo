@@ -5,14 +5,12 @@
       <div class="links-container">
         <a
           aria-label="Link to Github"
-          href="https://github.com/Tauromachian/vue-simple-stepper"
-        >
+          href="https://github.com/Tauromachian/vue-simple-stepper">
           <icon-helper icon="mdiGithub" width="50px" height="50px" />
         </a>
         <a
           haria-label="Link to NPM"
-          ref="https://www.npmjs.com/package/vue-simple-stepper"
-        >
+          ref="https://www.npmjs.com/package/vue-simple-stepper">
           <icon-helper icon="mdiNpm" width="50px" height="50px" />
         </a>
       </div>
@@ -33,26 +31,16 @@
 
     <base-section title="Installation">
       <p>Install it from npm</p>
-      <one-line-code-highlighter>
-        npm install vue-simple-stepper
-      </one-line-code-highlighter>
+      <pre class="language-javascript"><code>npm install vue-simple-stepper</code></pre>
       <p>You need to import the component doing:</p>
-      <one-line-code-highlighter>
-        import VueSimpleStepper from 'vue-simple-stepper'
-      </one-line-code-highlighter>
+      <pre class="language-javascript"><code>import VueSimpleStepper from 'vue-simple-stepper'</code></pre>
       <p>And its styles like this:</p>
-      <one-line-code-highlighter>
-        import "vue-simple-stepper/dist/style.css";
-      </one-line-code-highlighter>
+      <pre class="language-javascript"><code>import "vue-simple-stepper/dist/style.css";</code></pre>
     </base-section>
 
     <base-section title="Use">
       <p>The easiest way to use is to copy and throw this in your code:</p>
-      <pre
-        data-prismjs-copy="lol"
-        class="language-html"
-        data-src="ExampleOne.vue"
-      ></pre>
+      <pre class="language-html" data-src="ExampleOne.vue"></pre>
       <p>
         Any element found in the default slot of the component will be
         automatically added to the stepper. Notice that the steps data prop
@@ -143,7 +131,10 @@ import "prismjs/plugins/toolbar/prism-toolbar.min.css";
 
 import "prismjs";
 import "prismjs/plugins/toolbar/prism-toolbar";
+import "prismjs/plugins/toolbar/prism-toolbar.css";
 import "prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard";
+
+import "prismjs/plugins/normalize-whitespace/prism-normalize-whitespace";
 
 import "prismjs/components/prism-javascript";
 import "prismjs/components/prism-css";
@@ -152,13 +143,14 @@ import "prismjs/components/prism-css";
 <style>
 .container {
   margin: 0 0.4em;
-
   max-width: 600px;
+  margin-bottom: 42.88px;
 }
 
 @media screen and (min-width: 600px) {
   .container {
     margin: 0 auto;
+    margin-bottom: 100px;
   }
 }
 
