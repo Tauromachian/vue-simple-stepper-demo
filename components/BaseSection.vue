@@ -1,5 +1,5 @@
 <template>
-  <section class="my-1">
+  <section class="my-3">
     <h2
       v-if="title"
       class="text-3xl text-5xl self-start sm:self-center"
